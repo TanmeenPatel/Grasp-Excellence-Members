@@ -2,30 +2,34 @@ function check() {
   // Selecting the input element and get its value
   let a = document.getElementById("inputId").value;
   let b = document.getElementById("password").value;
-  if (a == "Aahil" && b == "s8626") {
+  if (a == "Grasp_Excellence_Members" && b == "") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Aamir" && b == "s8872") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Aahil.R") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Aashray" && b == "s12901") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Arnav.D") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Adwaith" && b == "s10832") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Ahammad.A") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Ashar" && b == "s13490") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Ashaz.O") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Ashaz" && b == "s16166") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Krish.N") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Aneesh" && b == "s8376") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Satvik.G") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Arnav" && b == "s8395") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Tanmeen.P") {
     localStorage.name = a;
     window.location.href = "Main File for Members.html";
-  } else if (a == "Atharv" && b == "s8388") {
+  } else if (a == "Grasp_Excellence_Members" && b == "Shiv.G") {
     localStorage.name = a;
+}else if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
+  localStorage.name = a;
+}else {
+  alert("You are not a member, please contact an admin for further queries.");
 }
