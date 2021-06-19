@@ -85,7 +85,7 @@
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 8px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -99,6 +99,36 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.heading {
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-left: 15em;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.content {
+  font-size: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 </style>
 </head>
@@ -139,6 +169,14 @@
     </div>
   </div>
   </div>
-  <img src="assets/Hello.svg" style="margin-top: 180px; margin-left: 30px; height: 250px;"></img>
+  <img src="assets/Hello.svg" style="margin-top: 150px; margin-left: 150px; margin-right: 150px; height: 400px;"></img>
+  <br><br>
+    <p class="heading" align="center">Grasp Excellence</p>
+  <br>
+  <p class="content" align="center">Grasp Excellence is a company which believes in the right to information. And quality information at that too. Our employees work tirelessly to bring you the best content- be it quizzes, notes, study material or tips and tricks. We make sure that you don't attend an exam with even a sliver of a doubt. </p>
+  <div class="row">
+    <div class="column">Grasp Excellence is a company which believes in the right to information. And quality information at that too.</div>
+    <div class="column"> you piece of shit</div>
+  </div>
 </body>
 </html>
