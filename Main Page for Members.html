@@ -113,11 +113,11 @@ h3 {
 
 .row {
   display: flex;
+  padding-right: 19%;
 }
 
 .column {
   flex: 50%;
-  margin-left: 15%;
 }
 
 @media screen and (max-width: 600px) {
@@ -130,6 +130,22 @@ h3 {
   font-size: 20px;
   margin-right: 80px;
   margin-left: 80px;
+}
+
+.specialities {
+  width: 550px;
+  height: 120px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.text {
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 </style>
 </head>
@@ -177,8 +193,12 @@ h3 {
   <p class="content" align="center">Grasp Excellence is a company which believes in the right to information. And quality information at that too. Our employees work tirelessly to bring you the best content- be it quizzes, notes, study material or tips and tricks. We make sure that you don't attend an exam with even a sliver of a doubt. </p>
   <br><br><br>
   <div class="row">
-    <p class="column">Grasp Excellence is a company which believes in the right to information. And quality information at that too.</p>
-    <p class="column"> you piece of shit</p>
+    <p class="column"><div class="specialities"><div class="text"><img src="./assets/quality.svg" style="height: 60px" align="right"></img>GE provides you resources that are of the best quality</div></div>
+    <p class="column"><div class="specialities"><div class="text"><img src="./assets/documents.svg" style="height: 60px" align="right"></img>GE provides numerous sample papers (subjective and objective)</div></div>
+  </div><br><br><br><br>
+  <div class="row">
+    <p class="column"><div class="specialities"><div class="text"><img src="./assets/Doubt.svg" style="height: 60px" align="right"></img>Get your doubts solved easily and conveniently by our employees or your classmates</div></div></p>
+    <p class="column"><div class="specialities"><div class="text"><img src="./assets/Tech.svg" style="height: 60px" align="right"></img>GE integrates technology to provide you the interactive content you need for studies</div></div></p>
   </div>
 </body>
 </html>
