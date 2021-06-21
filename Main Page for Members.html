@@ -1,5 +1,6 @@
 <html>
 <head>
+
   <title>Home</title>
   <link
     rel="icon"
@@ -12,6 +13,15 @@
     color: #529527;
     margin-left: 47%;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color:inherit;
+  }
+
   .nav {
         display: flex;
         z-index: 1;
@@ -166,6 +176,28 @@ h3 {
   background-color: #2e2e2e;
   width: 100%;
 }
+
+img.hover-shadow {
+      margin-left: 8%;
+      margin-bottom: 5%;
+  		transition: 0.3s;
+		}
+		.hover-shadow:hover {
+  		box-shadow: 0 50px 70px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+.join {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  width: 100px;
+  border-radius: 18px;
+  padding: 10px;
+  background-color: #5865F2;
+  margin-left: 50%;
+  margin-bottom: 10%;
+}
 </style>
 </head>
 <body>
@@ -234,15 +266,29 @@ h3 {
   <p class="heading" align="center">About Us</p>
   <p class="content" align="center"> We started off as a humble company, a result of a merger of 2 companies; Grasp Excellence and Suraiyaa Jaan Quizzes. Both companies had the same motive: to provide quality education to our classmates. They felt the need for something that would help them revise what was learnt in school. Since no one took the steps to make such a company, they set out to do so themselves. With sheer hardword, determination and sincerity, they were able to make a successful company. There was great competition between the 2 companies, and that's when the owners realised: they had the same vision. It would be the best of both worlds if the 2 companies became 1 collective company that served the class. And this website is for that company.</p>
   <br><br><br><br>
+  <h1 align="center">Join our Discord server</h1>
+  <img class="hover-shadow" src="./assets/discord server.png" style="height: 500px;"></img>
+  <button class="join"><a href="https://discord.gg/YvP5W5Vuqu" target="_blank">JOIN</a></button>
+
   <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>Contact: Tanmeen Patel: +971 50 695 7640 -
-  <a class="auto-style5" href="mailto:tanmeenpatel@gmail.com">
-  tanmeenpatel@gmail.com</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  Faizaan Nasir: +971 50 824 5491 -
-  <a class="auto-style5" href="mailto:faizaannasir06@gmail.com">
-  faizaannasir06@gmail.com</a></p>
-  </div>
+  <div style="margin-left:-1%; margin-right: -0.5%; margin-bottom: -1%;color:#ddd;background-color:#282E34;text-align:center;padding:80px;text-align: justify;">
+    <p class="column">
+    <a href="#news">Employees</a><p>
+    <a href="#news">Study Material</a></p>
+    <span>Sample Papers</span>
+      <ul>
+        <li><a href="#">Math</a></li>
+        <li><a href="#">Science</a></li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">Social Studies</a></li>
+        <li><a href="#">Hindi</a></li>
+        <li><a href="#">Computers</a></li>
+      </ul>
+    </p>
+    <br><br>
+  <p class="column">
+    <span>Made by: The Dev Team of Grasp Excellence</span>
+  </p>
 </div>
 </body>
 </html>
