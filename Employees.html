@@ -94,6 +94,13 @@
   z-index: 1;
 }
 
+.next {
+  padding: 10px;
+  color: #529527;
+  margin-left: 52%;
+}
+
+
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
@@ -128,11 +135,63 @@
 .list {
   margin-left: 20px;
 }
+
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
   </style>
   </head>
   <body>
     <div class="nav">
-      <a href="#home" class="active">Home</a>
+      <a href="Main Page for Members.html" class="active">Home</a>
       <a href="#news">Employees</a>
       <a href="#news">Study Material</a>
       <div class="dropdown">
@@ -154,5 +213,69 @@
     <h1 class="heading" align="center">Our Employees</h1>
     <p class="content" align="center">The dictionary defines superlative as: of the highest kind, quality, or order, surpassing all else, or others. Supreme. We define it as our employees. As friends, as teachers and as formal post-holders, our employees are of the highest kind, quality, and order. Supreme.</p>
     <h3 class="list"> List of our employees:</h3>
+    <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Sathya Mitiran</h2>
+        <p class="title">Founder, CEO</p>
+        <p>s14234@msdpssharjah.com</p>
+        <p>The original founder of Grasp Excellence is the CEO and leader of the modern-day Grasp Excellence</p>
+        <p>Discord Account: ▄︻デᴎɒɿiƚiM ɒʏʜƚɒꙄ══━一 (#9999)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Faizaan Nasir</h2>
+        <p class="title">Co-founder, Developer, QP Maker</p>
+        <p>s8349@msdpssharjah.com</p>
+        <p>The founder of Anderson Quizzes/Suraiyaa Jaan Quizzes who decided to collaborate with Sathya to form this company</p>
+        <p>Discord Account: ViewlessMusic45 (#3313)</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Shashwat Krishna</h2>
+        <p class="title">Co-founder, Developer, QP Maker</p>
+        <p>s16199@msdpssharjah.com</p>
+        <p>The programmer of the bot of GE-Bot present in the Grasp Excellence server. Co founder of GE as well as the QP maker.</p>
+        <p>Discord Account: amazinglySK (#7842)</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Tanmeen Patel</h2>
+        <p class="title">Developer, QP Maker</p>
+        <p>s14218@msdpssharjah.com</p>
+        <p>The developer of this website and occassional QP maker</p>
+        <p>Discord Account: Tama (#4252)</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Ahmed Ashaz</h2>
+        <p class="title">QA Manager, QP Maker</p>
+        <p>s14218@msdpssharjah.com</p>
+        <p>The developer of this website and occassional QP maker</p>
+        <p>Discord Account: Ashaz (#0131)</p>
+      </div>
+    </div>
+  </div>
+
+</div>
   </body>
 </html>
