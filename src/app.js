@@ -31,7 +31,7 @@ function check() {
     window.location.href = "./Main File for Members.html";
   } else if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
     localStorage.name = a;
-    window.location.href = "Main File for Members.html";
+    window.location.href = "Home Page.html";
   } else 
   alert("You are not a member, please contact an admin for further queries.");
 }
