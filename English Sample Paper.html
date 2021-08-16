@@ -180,6 +180,113 @@
             margin-left: 1em;
         }
 
+        .grid-container {
+            margin: 0 auto;
+            display: grid;
+            grid-gap: 10em;
+            padding: 10px;
+        }
+
+        .grid-item-1 {
+            text-align: center;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .grid-item-2 {
+            text-align: center;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .grid-item-3 {
+            text-align: center;
+            line-height: normal;
+            vertical-align: middle;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .grid-item-4 {
+            text-align: center;
+            line-height: normal;
+            vertical-align: middle;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-row-start: 2;
+            grid-column-end: 2;
+        }
+
+        .grid-item-5 {
+            text-align: center;
+            line-height: normal;
+            vertical-align: middle;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-row-start: 2;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+
+        .grid-item-1:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        .grid-item-2:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        .grid-item-3:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        .grid-item-4:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        .grid-item-5:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
@@ -202,17 +309,19 @@
       </div>
       <span class="next">Next exam: Social Studies</span>
       </div>
-      <br><br>
+      <br><br><br><br>
       <div class="heading"><span>English Sample Papers</span></div>
-      <h1 align="center">Guidelines:</h1>
+      <h1 align="center">Guidelines:</h1><br>
       <p class="small-text">Please find attachments to the Maths Sample Papers (Objectives and Subjectives)
           <br>Your objectives will appear in the box below.
       </p><br>
-      <p align="center" style="font-size:16px"><a href="Anderson Quiz English.docx"> English PT1 (Subjectives) </a><br>
-        <a href="GE_SP_ENGLISH_SUB_SET1.docx"> English PT2 Set 1 (Subjectives)</a><br>
-        <a href="PT2_-_SET_2_-_SUBJECTIVE_-_GE.docx"> English PT2 Set 2 (Subjectives)</a><br>
-        <a href="https://forms.office.com/r/Wh0bnBdRKd"> English PT2 Set 1 (Objectives) </a><br>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ukNcCbKsJ0eMhSvNsSiy1k_Um-PdP0JMmDvW7j_kF4VUQ0RQNjRGSkhLQVUzU1hPV1hGMlI0RFk0Ty4u"> English PT2 Set 3 (Objectives)</a><br></p>        <br>
+      <div class="grid-container">
+        <div class="grid-item-1"><a href="Anderson Quiz English.docx">  PT1 (Subjectives) </a></div>
+        <div class="grid-item-2"><a href="https://forms.office.com/r/Wh0bnBdRKd">  PT2 Set 1 (Objectives) </a></div>
+        <div class="grid-item-3"><a href="GE_SP_ENGLISH_SUB_SET1.docx">  PT2 Set 1 (Subjectives)</a></div>
+        <div class="grid-item-4"><a href="PT2_-_SET_2_-_SUBJECTIVE_-_GE.docx">  PT2 Set 2 (Subjectives)</a></div>
+        <div class="grid-item-5"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ukNcCbKsJ0eMhSvNsSiy1k_Um-PdP0JMmDvW7j_kF4VUQ0RQNjRGSkhLQVUzU1hPV1hGMlI0RFk0Ty4u">  PT2 Set 3 (Objectives)</a></div>
+      </div><br><br>
       <p align="center"><iframe style="border-radius:8px; background-color: #353535;" width="90%" height="90%" name="page"></iframe>
       </p>
 </body>

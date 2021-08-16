@@ -180,6 +180,73 @@
             margin-left: 1em;
         }
 
+        .grid-container {
+            margin: 0 auto;
+            display: grid;
+            grid-gap: 10em;
+            padding: 10px;
+        }
+
+        .grid-item-1 {
+            text-align: center;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .grid-item-2 {
+            text-align: center;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .grid-item-3 {
+            text-align: center;
+            line-height: normal;
+            vertical-align: middle;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #353535;
+            color: white;
+            margin: 0 auto;
+            padding: 1em;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .grid-item-1:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        .grid-item-2:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        .grid-item-3:hover{
+            width: 75%;
+            transition-duration: 0.5s;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+
     </style>
 </head>
 <body>
@@ -208,10 +275,11 @@
       <p class="small-text">Please find attachments to the Maths Sample Papers (Objectives and Subjectives)
           <br>Your objectives will appear in the box below.
       </p><br>
-      <p align="center" style="font-size:16px">
-        <a href="https://forms.office.com/r/uU5naais5v" target="page"> Hindi PT2 Set 1 (Objectives) </a><br>
-        <a href="https://forms.office.com/r/br9XTuAxkS" target="page"> Hindi PT2 Set 2 (Objectives) </a><br>
-        <a href="SPOILER_Subj.docx"> Hindi PT2 Set 1 (Subjectives) </a><br>      </p>
+      <div class="grid-container">
+        <div class="grid-item-1"><a href="https://forms.office.com/r/uU5naais5v" target="page"> PT2 Set 1 (Objectives) </a></div>
+        <div class="grid-item-2"><a href="SPOILER_Subj.docx"> PT2 Set 1 (Subjectives) </a></div>
+        <div class="grid-item-3"><a href="https://forms.office.com/r/br9XTuAxkS" target="page">  PT2 Set 2 (Objectives) </a></div>
+     </div><br><br><br>
         <p align="center"><iframe style="border-radius:8px; background-color: #353535;" width="90%" height="90%" name="page"></iframe>
 </body>
 </html>
