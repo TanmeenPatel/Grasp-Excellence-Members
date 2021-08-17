@@ -205,6 +205,19 @@ img.hover-shadow {
   background-color: #5865F2;
   margin-bottom: 10%;
 }
+@media only screen and (orientation:portrait){
+
+#wrapper { display:none; }
+
+#warning-message { display:block;}
+
+}
+
+@media only screen and (orientation:landscape){
+
+#warning-message { display:none; }
+
+}
 </style>
 </head>
 <body>
@@ -226,6 +239,8 @@ img.hover-shadow {
       }
     }
   </script>
+  <div id="warning-message">WHEN WILL BIO CLASS START</div>
+  <div id="wrapper">
   <div class="nav">
     <a href="Home Page.html" class="active">Home</a>
     <a href="Employees.html">Employees</a>
@@ -298,6 +313,7 @@ img.hover-shadow {
   <p class="column">
     <span>Made by: The Dev Team of Grasp Excellence</span>
   </p>
+</div>
 </div>
 </body>
 </html>

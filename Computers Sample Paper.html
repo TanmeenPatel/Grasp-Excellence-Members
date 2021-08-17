@@ -179,10 +179,24 @@
         .small-text {
             margin-left: 1em;
         }
+        @media only screen and (orientation:portrait){
 
+#wrapper { display:none; }
+
+#warning-message { display:block;}
+
+}
+
+@media only screen and (orientation:landscape){
+
+#warning-message { display:none; }
+
+}
     </style>
 </head>
+<div id="warning-message">I HATE SHASHWAT!!!!!!</div>
 <body>
+    <div id="wrapper">
     <div class="nav">
         <a href="Home Page.html">Home</a>
         <a href="Employees.html">Employees</a>
@@ -208,5 +222,6 @@
       <p class="small-text">Please find attachments to the Maths Sample Papers (Objectives and Subjectives)
           <br>Your objectives will appear in the box below.
       </p>
+    </div>
 </body>
 </html>
