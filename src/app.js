@@ -3,35 +3,35 @@ function check() {
   let a = document.getElementById("inputId").value;
   let b = document.getElementById("password").value;
   if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Aahil.R") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Arnav.D") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Ahammad.A") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Ashaz.O") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Krish.N") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Satvik.G") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Tanmeen.P") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Shiv.G") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
-    localStorage.name = a;
+    localStorage.ID = a;
     window.location.href = "Home Page.html";
-  } else 
+  } else
   alert("You are not a member, please contact an admin for further queries.");
 }

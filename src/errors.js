@@ -1,9 +1,9 @@
 function noLogin() {
   if (
-    localStorage.name == null ||
-    localStorage.name == undefined ||
-    localStorage.name == "null" ||
-    localStorage.name == "undefined"
+    localStorage.ID == null ||
+    localStorage.ID == undefined ||
+    localStorage.ID == "null" ||
+    localStorage.ID == "undefined"
   ) {
     window.location.href = "./error.html";
   }
