@@ -286,10 +286,26 @@
             text-decoration: none;
             color: white;
         }
+        #warning-message { display: none; margin: 5px; padding: 7px;}
 
+@media only screen and (orientation:portrait){
+
+    #wrapper { display:none; }
+
+    #warning-message { display:block;}
+
+}
+
+@media only screen and (orientation:landscape){
+
+    #warning-message { display:none; }
+
+}
     </style>
 </head>
 <body>
+    <div id="warning-message"><a href="#">I dont give a damn about you dumb</a></div>
+    <div id="wrapper">
     <div class="nav">
         <a href="Home Page.html">Home</a>
         <a href="Employees.html">Employees</a>
@@ -324,5 +340,6 @@
       </div><br><br>
       <p align="center"><iframe style="border-radius:8px; background-color: #353535;" width="90%" height="90%" name="page"></iframe>
       </p>
+    </div>
 </body>
 </html>
