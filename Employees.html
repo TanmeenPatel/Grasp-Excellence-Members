@@ -215,9 +215,24 @@
 .button:hover {
   background-color: #555;
 }
+@media only screen and (orientation:portrait){
+
+#wrapper { display:none; }
+
+#warning-message { display:block;}
+
+}
+
+@media only screen and (orientation:landscape){
+
+#warning-message { display:none; }
+
+}
   </style>
   </head>
   <body>
+    <div id="warning-message"> So see basically you put your content here </div>
+    <div id="wrapper">
     <div class="nav">
       <a href="Home Page.html">Home</a>
       <a href="Employees.html" class="active">Employees</a>
@@ -321,6 +336,7 @@
     </div>
   </div>
 
+</div>
 </div>
   </body>
 </html>
