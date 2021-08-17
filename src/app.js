@@ -23,7 +23,7 @@ function check() {
   } else if (a == "Grasp_Excellence_Members" && b == "Satvik.G") {
     localStorage.name = a;
     window.location.href = "Home Page.html";
-  } else if (a == "Grasp_Excellence_Members" && b == "Tanmeen.P") {
+  } else if (a == "Me nub you pro" && b == "noone can guess my password hahaha") {
     localStorage.name = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Shiv.G") {
