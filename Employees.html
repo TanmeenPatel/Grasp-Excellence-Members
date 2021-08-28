@@ -1,234 +1,12 @@
 <html>
   <head>
     <title>Employees</title>
+    <link href="./src/styles.css" rel="stylesheet" />
   <link
     rel="icon"
     href="Favicon.png"
     type="image/x-icon"
   />
-  <style>
-  a {
-    text-decoration: none;
-  }
-
-  a:visited {
-    color:inherit;
-  }
-
-  .nav {
-        display: flex;
-        z-index: 1;
-        position: fixed;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        background-color: #000;
-        height: 7%;
-        top: 0;
-        left: 0;
-      }
-
-      .nav a {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 10px;
-        text-decoration: none;
-        font-size: 1em;
-      }
-
-      .nav a:hover {
-        background-color: #656565;
-      }
-
-      .nav a.active {
-        background-color: #529527;
-        color: white;
-      }
-
-      .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-
-      /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-      .sticky + .content {
-        padding-top: 60px;
-      }
-
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
-        background-color: #f2f2f2;
-      }
-
-      .dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 10px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #656565;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.next {
-  padding: 10px;
-  color: #529527;
-  margin-left: 52%;
-}
-
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 10px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.heading {
-  font-size: 45px;
-  font-weight: bolder;
-}
-
-.content {
-  font-size: 20px;
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
-.list {
-  margin-left: 20px;
-}
-
-.column {
-  float: left;
-  width: 32%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-/* Add some shadows to create a card effect */
-.Founder {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-color: red;
-  border: 3px solid red;
-}
-
-.Cofounder {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-color: red;
-  border: 3px solid #d6d609;
-}
-
-.Developer {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-color: red;
-  border: 3px solid #2ECC71;
-}
-
-.QA {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-color: red;
-  border: 3px solid #00FFCC;
-}
-
-.RP {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-color: red;
-  border: 3px solid #008cff;
-}
-
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: left;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-@media only screen and (orientation:portrait){
-
-#wrapper { display:none; }
-
-#warning-message { display:block;}
-
-}
-
-@media only screen and (orientation:landscape){
-
-#warning-message { display:none; }
-
-}
-  </style>
   </head>
   <body onload="noLogin()">
     <div id="warning-message"> So see basically you put your content here </div>
@@ -257,7 +35,7 @@
     <p class="content" align="center">The dictionary defines superlative as: of the highest kind, quality, or order, surpassing all else, or others. Supreme. We define it as our employees. As friends, as teachers and as formal post-holders, our employees are of the highest kind, quality, and order. Supreme.</p><br>
     <h3 class="list"> List of our employees:</h3>
     <div class="row">
-  <div class="column">
+  <div class="column-emp">
     <div class="Founder">
       <div class="container">
         <h2>Sathya Mitiran</h2>
@@ -269,7 +47,7 @@
     </div>
   </div>
 
-  <div class="column">
+  <div class="column-emp">
     <div class="Cofounder">
       <div class="container">
         <h2>Faizaan Nasir</h2>
@@ -280,7 +58,7 @@
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column-emp">
     <div class="Cofounder">
       <div class="container">
         <h2>Shashwat Krishna</h2>
@@ -291,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column-emp">
     <div class="Developer">
       <div class="container">
         <h2>Tanmeen Patel</h2>
@@ -302,40 +80,40 @@
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column-emp">
     <div class="QA">
       <div class="container">
         <h2>Ahmed Ashaz</h2>
         <p class="title">QA Manager, QP Maker</p>
-        <p>s14218@msdpssharjah.com</p>
+        <p>s161666@msdpssharjah.com</p>
         <p>Handles all the correction of question papers</p>
         <p>Discord: Ashaz (#0131)</p>
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column-emp">
     <div class="QA">
       <div class="container">
         <h2>Shiv Gorantiwar</h2>
         <p class="title">QA Manager, QP Maker</p>
-        <p>s14218@msdpssharjah.com</p>
+        <p>s15888@msdpssharjah.com</p>
         <p>Handles all the correction of question papers</p>
         <p>Discord: x_5h1v (#0001)</p>
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column-emp">
     <div class="RP">
       <div class="container">
         <h2>Krish Narielwala</h2>
         <p class="title">Resources Provider</p>
-        <p>s14218@msdpssharjah.com</p>
+        <p>s8806@msdpssharjah.com</p>
         <p>Provides all the GE resources</p>
         <p>Discord: Dekurott (#0043)</p>
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column-emp">
     <div class="RP">
       <div class="container">
         <h2>Satvik Gautam</h2>

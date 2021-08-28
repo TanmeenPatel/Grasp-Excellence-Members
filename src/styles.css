@@ -1,0 +1,423 @@
+.next {
+    padding: 10px;
+    color: #529527;
+    margin-left: 52%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+
+  a:visited {
+    color:#f2f2f2;
+  }
+
+  a:hover {
+    color:#f2f2f2
+  }
+
+  .nav {
+        position: sticky;
+        display: flex;
+        z-index: 1;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        backdrop-filter: blur(20px) saturate(125%);
+        -webkit-backdrop-filter: blur(20px) saturate(125%);        
+        height: 7%;
+        top: 0;
+        left: 0;
+      }
+
+      .nav a {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;        float: left;
+        display: block;
+        color: #242424;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 1em;
+      }
+
+      .nav a:hover {
+        background-color: #a1a1a1;
+      }
+
+      .nav a.active {
+        background-color: #529527;
+        color: white;
+      }
+
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+      .sticky + .content {
+        padding-top: 60px;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #242424;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #a1a1a1;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.heading {
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.row-home {
+  display: flex;
+  padding-right: 20%;
+}
+
+.column-home {
+  flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column-home {
+    width: 100%;
+  }
+}
+
+.column-emp {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column-emp {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.Founder {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: red;
+  border: 3px solid red;
+}
+
+.Cofounder {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: red;
+  border: 3px solid #d6d609;
+}
+
+.Developer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: red;
+  border: 3px solid #2ECC71;
+}
+
+.QA {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: red;
+  border: 3px solid #00FFCC;
+}
+
+.RP {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: red;
+  border: 3px solid #008cff;
+}
+
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.logo {
+  margin-left: 13.5%;
+  opacity: 0.4;
+}
+
+.logo:hover {
+  opacity:1;
+}
+
+.content {
+  font-size: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.specialities {
+  width: 550px;
+  height: 120px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.text {
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.footer {
+  background-color: #2e2e2e;
+  width: 100%;
+}
+
+img.hover-shadow {
+      margin-bottom: 5%;
+  		transition: 0.3s;
+      border-radius: 5px;
+		}
+		.hover-shadow:hover {
+  		box-shadow: 0 50px 70px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+.logo-div {
+    width: 100%;
+    display: block;
+}
+
+.list {
+  margin-left: 20px;
+}
+
+.join {
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  width: 100px;
+  border-radius: 18px;
+  padding: 10px;
+  background-color: #5865F2;
+  margin-bottom: 10%;
+}
+@media only screen and (orientation:portrait){
+
+#wrapper { display:none; }
+
+#warning-message { display:block;}
+
+}
+
+@media only screen and (orientation:landscape){
+
+#warning-message { display:none; }
+
+}
+
+.small-text {
+  margin-left: 1em;
+}
+
+.heading-sp {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  }
+
+  .grid-container-studymaterials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+.card-studymaterials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 20px;
+    gap: 20px;
+    height: 220px;
+    background-color: rgb(48, 48, 48);
+    transition: all ease-in-out 0.5s;
+}
+
+
+  .grid-container {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10em;
+    padding: 10px;
+}
+
+.grid-item-1 {
+    text-align: center;
+    border-radius: 8px;
+    width: 70%;
+    background-color: #353535;
+    color: white;
+    margin: 0 auto;
+    padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-2 {
+    text-align: center;
+    border-radius: 8px;
+    width: 70%;
+    background-color: #353535;
+    color: white;
+    margin: 0 auto;
+    padding: 1em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item-3 {
+    text-align: center;
+    line-height: normal;
+    vertical-align: middle;
+    border-radius: 8px;
+    width: 70%;
+    background-color: #353535;
+    color: white;
+    margin: 0 auto;
+    padding: 1em;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item-4 {
+    text-align: center;
+    line-height: normal;
+    vertical-align: middle;
+    border-radius: 8px;
+    width: 70%;
+    background-color: #353535;
+    color: white;
+    margin: 0 auto;
+    padding: 1em;
+    grid-row-start: 2;
+    grid-column-end: 2;
+}
+
+.grid-item-5 {
+    text-align: center;
+    line-height: normal;
+    vertical-align: middle;
+    border-radius: 8px;
+    width: 70%;
+    background-color: #353535;
+    color: white;
+    margin: 0 auto;
+    padding: 1em;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.grid-item-1:hover{
+    width: 75%;
+    transition-duration: 0.5s;
+}
+
+.grid-item-2:hover{
+    width: 75%;
+    transition-duration: 0.5s;
+}
+
+.grid-item-3:hover{
+    width: 75%;
+    transition-duration: 0.5s;
+}
+
+.grid-item-4:hover{
+    width: 75%;
+    transition-duration: 0.5s;
+}
+
+.grid-item-5:hover{
+    width: 75%;
+    transition-duration: 0.5s;
+}
