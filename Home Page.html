@@ -1,27 +1,25 @@
 <html>
+
 <head>
 
   <title>Home</title>
   <link href="./src/styles.css" rel="stylesheet" />
-  <link
-    rel="icon"
-    href="Favicon.png"
-    type="image/x-icon"
-  />
+  <link rel="icon" href="Favicon.png" type="image/x-icon" />
 </head>
+
 <body onload="noLogin()">
   <script>
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function () { myFunction() };
 
     // Get the navbar
-      var navbar = document.getElementById("nav");
+    var navbar = document.getElementById("nav");
 
-      // Get the offset position of the navbar
-      var sticky = nav.offsetTop;
+    // Get the offset position of the navbar
+    var sticky = nav.offsetTop;
 
-      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
       } else {
         navbar.classList.remove("sticky");
@@ -30,82 +28,114 @@
   </script>
   <div id="warning-message"></div>
   <div id="wrapper">
-  <div class="nav">
-    <a href="Home Page.html" class="active">Home</a>
-    <a href="Employees.html">Employees</a>
-    <a href="Study Material.html">Study Material</a>
-    <div class="dropdown">
-    <button class="dropbtn">Sample Papers
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Math Sample Paper.html">Math</a>
-      <a href="Science Sample Paper.html">Science</a>
-      <a href="English Sample Paper.html">English</a>
-      <a href="SST Sample Paper.html">Social Studies</a>
-      <a href="Hindi Sample Paper.html">Hindi</a>
-      <a href="Computers Sample Paper.html">Computers</a>
+    <div class="nav">
+      <a href="Home Page.html" class="active">Home</a>
+      <a href="Employees.html">Employees</a>
+      <a href="Study Material.html">Study Material</a>
+      <div class="dropdown">
+        <button class="dropbtn">Sample Papers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Math Sample Paper.html">Math</a>
+          <a href="Science Sample Paper.html">Science</a>
+          <a href="English Sample Paper.html">English</a>
+          <a href="SST Sample Paper.html">Social Studies</a>
+          <a href="Hindi Sample Paper.html">Hindi</a>
+          <a href="Computers Sample Paper.html">Computers</a>
+        </div>
+      </div>
+      <span class="next">Next exam: English</span>
     </div>
-  </div>
-  <span class="next">Next exam: Social Science</span>
-  </div>
-  <div class="row-home">
-<p class="column-home" align="center">  <img src="assets/Hello.svg" style="margin-top: 150px; height: 300px;"></p>
-  <br><br>
+    <div class="row-home">
+      <p class="column-home" align="center"> <img src="assets/Hello.svg" style="margin-top: 150px; height: 300px;"></p>
+      <br><br>
 
-    <p class="header" align="center">Grasp Excellence</p></div>
-  <br>
-  <p class="content" align="center">Grasp Excellence is a company which believes in the right to information. And quality information at that too. Our employees work tirelessly to bring you the best content- be it quizzes, notes, study material or tips and tricks. We make sure that you don't attend an exam with even a sliver of a doubt. </p>
-  <br><br><br>
-  <div class="row-home">
-    <p class="column-home"><div class="specialities"><div class="text"><img src="./assets/quality.svg" style="height: 60px" align="right"></img>GE provides you resources that are of the best quality</div></div>
-    <p class="column-home"><div class="specialities"><div class="text"><img src="./assets/documents.svg" style="height: 60px" align="right"></img>GE provides numerous sample papers (subjective and objective)</div></div>
-  </div><br><br><br><br>
-  <div class="row-home">
-    <p class="column-home"><div class="specialities"><div class="text"><img src="./assets/Doubt.svg" style="height: 60px" align="right"></img>Get your doubts solved easily and conveniently by our employees or your classmates</div></div></p>
-    <p class="column-home"><div class="specialities"><div class="text"><img src="./assets/Tech.svg" style="height: 60px" align="right"></img>GE integrates technology to provide you the interactive content you need for studies</div></div></p>
-  </div>
-  <br><br><br><br><br><br>
-  <p class="heading" align="center">Sponsored by forward thinking companies.</p>
-  <br>
-  <div class="logo-div">
-  <div class="row-home">
-    <p class="logo" align="center"><img src="./assets/Google-Logo.wine.svg" style="height:100px;"></p>
-    <p class="logo" align="center"><img src="./assets/Amazon.svg" style="height:100px;"></p>
-    <p class="logo" align="center"><img src="./assets/Apple.svg" style="height:100px;"></p>
-    <p class="logo" align="center"><img src="./assets/Microsoft.svg" style="height:125px;"></p>
-  </div>
-  </div>
-  <p align="center">(not really)</p>
-  <br><br><br><br><br><br>
-  <p class="heading" align="center">About Us</p>
-  <p class="content" align="center"> We started off as a humble company, a result of a merger of 2 companies; Grasp Excellence and Suraiyaa Jaan Quizzes. Both companies had the same motive: to provide quality education to our classmates. They felt the need for something that would help them revise what was learnt in school. Since no one took the steps to make such a company, they set out to do so themselves. With sheer hardword, determination and sincerity, they were able to make a successful company. There was great competition between the 2 companies, and that's when the owners realised: they had the same vision. It would be the best of both worlds if the 2 companies became 1 collective company that served the class. And this website is for that company.</p>
-  <br><br><br><br>
-  <h1 align="center">Join our Discord server</h1>
-  <p align="center"><img class="hover-shadow" src="./assets/Discord server.png" style="height: 500px;"></img></p>
-  <p align="center"><button class="join"><a href="https://discord.gg/MrPEbY7K" target="_blank">JOIN</a></button></p>
+      <p class="header" align="center">Grasp Excellence</p>
+    </div>
+    <br>
+    <p class="content" align="center">Grasp Excellence is a company which believes in the right to information. And
+      quality information at that too. Our employees work tirelessly to bring you the best content- be it quizzes,
+      notes, study material or tips and tricks. We make sure that you don't attend an exam with even a sliver of a
+      doubt. </p>
+    <br><br><br>
+    <div class="row-home">
+      <p class="column-home">
+      <div class="specialities">
+        <div class="text"><img src="./assets/quality.svg" style="height: 60px" align="right"></img>GE provides you
+          resources that are of the best quality</div>
+      </div>
+      <p class="column-home">
+      <div class="specialities">
+        <div class="text"><img src="./assets/documents.svg" style="height: 60px" align="right"></img>GE provides
+          numerous sample papers (subjective and objective)</div>
+      </div>
+    </div><br><br><br><br>
+    <div class="row-home">
+      <p class="column-home">
+      <div class="specialities">
+        <div class="text"><img src="./assets/Doubt.svg" style="height: 60px" align="right"></img>Get your doubts solved
+          easily and conveniently by our employees or your classmates</div>
+      </div>
+      </p>
+      <p class="column-home">
+      <div class="specialities">
+        <div class="text"><img src="./assets/Tech.svg" style="height: 60px" align="right"></img>GE integrates technology
+          to provide you the interactive content you need for studies</div>
+      </div>
+      </p>
+    </div>
+    <br><br><br><br><br><br>
+    <p class="heading" align="center">Sponsored by forward thinking companies.</p>
+    <br>
+    <div class="logo-div">
+      <div class="row-home">
+        <p class="logo" align="center"><img src="./assets/Google-Logo.wine.svg" style="height:100px;"></p>
+        <p class="logo" align="center"><img src="./assets/Amazon.svg" style="height:100px;"></p>
+        <p class="logo" align="center"><img src="./assets/Apple.svg" style="height:100px;"></p>
+        <p class="logo" align="center"><img src="./assets/Microsoft.svg" style="height:125px;"></p>
+      </div>
+    </div>
+    <p align="center">(not really)</p>
+    <br><br><br><br><br><br>
+    <p class="heading" align="center">About Us</p>
+    <p class="content" align="center"> We started off as a humble company, a result of a merger of 2 companies; Grasp
+      Excellence and Suraiyaa Jaan Quizzes. Both companies had the same motive: to provide quality education to our
+      classmates. They felt the need for something that would help them revise what was learnt in school. Since no one
+      took the steps to make such a company, they set out to do so themselves. With sheer hardword, determination and
+      sincerity, they were able to make a successful company. There was great competition between the 2 companies, and
+      that's when the owners realised: they had the same vision. It would be the best of both worlds if the 2 companies
+      became 1 collective company that served the class. And this website is for that company.</p>
+    <br><br><br><br>
+    <h1 align="center">Join our Discord server</h1>
+    <p align="center"><img class="hover-shadow" src="./assets/Discord server.png" style="height: 500px;"></img></p>
+    <p align="center"><button class="join"><a href="https://discord.gg/MrPEbY7K" target="_blank">JOIN</a></button></p>
 
-  <div style="position:relative;">
-  <div style="margin-left:-1%; margin-right: -0.5%; margin-bottom: -1%;color:#ddd;background-color:#282E34;text-align:center;padding:80px;text-align: justify;">
-    <p class="column-home">
-    <a href="#news">Employees</a><p>
-    <a href="#news">Study Material</a></p>
-    <span>Sample Papers</span>
-      <ul>
-        <li><a href="Math Sample Paper.html">Math</a></li>
-        <li><a href="Science Sample Paper.html">Science</a></li>
-        <li><a href="English Sample Paper.html">English</a></li>
-        <li><a href="SST Sample Paper.html">Social Studies</a></li>
-        <li><a href="Hindi Sample Paper.html">Hindi</a></li>
-        <li><a href="Computers Sample Paper.html">Computers</a></li>
-      </ul>
-    </p>
-    <br><br>
-  <p class="column-home">
-    <span>Made by: The Dev Team of Grasp Excellence</span>
-  </p>
-</div>
-</div>
-<script src = "./src/errors.js"></script>
+    <div style="position:relative;">
+      <div
+        style="margin-left:-1%; margin-right: -0.5%; margin-bottom: -1%;color:#ddd;background-color:#282E34;text-align:center;padding:80px;text-align: justify;">
+        <p class="column-home">
+          <a href="#news">Employees</a>
+        <p>
+          <a href="#news">Study Material</a>
+        </p>
+        <span>Sample Papers</span>
+        <ul>
+          <li><a href="Math Sample Paper.html">Math</a></li>
+          <li><a href="Science Sample Paper.html">Science</a></li>
+          <li><a href="English Sample Paper.html">English</a></li>
+          <li><a href="SST Sample Paper.html">Social Studies</a></li>
+          <li><a href="Hindi Sample Paper.html">Hindi</a></li>
+          <li><a href="Computers Sample Paper.html">Computers</a></li>
+        </ul>
+        </p>
+        <br><br>
+        <p class="column-home">
+          <span>Made by: The Dev Team of Grasp Excellence</span>
+        </p>
+      </div>
+    </div>
+    <script src="./src/errors.js"></script>
 </body>
+
 </html>
