@@ -5,15 +5,6 @@ function check() {
   if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
-  } else if (a == "Grasp_Excellence_Members" && b == "Aahil.R") {
-    localStorage.ID = a;
-    window.location.href = "Home Page.html";
-  } else if (a == "Grasp_Excellence_Members" && b == "Arnav.D") {
-    localStorage.ID = a;
-    window.location.href = "Home Page.html";
-  } else if (a == "Grasp_Excellence_Members" && b == "Ahammad.A") {
-    localStorage.ID = a;
-    window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Ashaz.O") {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
@@ -28,10 +19,6 @@ function check() {
     window.location.href = "Home Page.html";
   } else if (a == "Me nub you pro" && b == "haha lol noone knows my password") {
     localStorage.ID = a;
-    window.location.href = "Home Page.html";
-  } else if (a == "Grasp_Excellence_Members" && b == "Shiv.G") {
-    localStorage.ID = a;
-    window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
