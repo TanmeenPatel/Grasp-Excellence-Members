@@ -19,7 +19,8 @@ function check() {
     window.location.href = "Home Page.html";
   } else if (a == "Me nub you pro" && b == "haha lol noone knows my password") {
     localStorage.ID = a;
-  } else if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
+    window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Shiv.G") {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
   } else if (a == "Grasp_Excellence_Members" && b == "Harish.S") {
