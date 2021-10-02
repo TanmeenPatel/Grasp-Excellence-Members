@@ -35,6 +35,12 @@ function check() {
   } else if (a == "Grasp_Excellence_Members" && b == "AdminOnly3") {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Harish.S") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Vishal") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
   } else
-  alert("You are not a member, please contact an admin for further queries.");
+    alert("You are not a member, please contact an admin for further queries.");
 }
