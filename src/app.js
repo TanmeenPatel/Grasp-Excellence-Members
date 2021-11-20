@@ -29,6 +29,22 @@ function check() {
   } else if (a == "Grasp_Excellence_Members" && b == "Vishal") {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
-  } else
+  } else if (a == "Grasp_Excellence_Members" && b == "Aharnish") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Ritwik") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Soumil") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Sujal") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  } else if (a == "Grasp_Excellence_Members" && b == "Harihar") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  }
+  else
     alert("You are not a member, please contact an admin for further queries.");
 }
