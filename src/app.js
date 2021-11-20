@@ -53,6 +53,10 @@ function check() {
     localStorage.ID = a;
     window.location.href = "Home Page.html";
   }
+  else if (a == "Grasp_Excellence_Members" && b == "Shourya") {
+    localStorage.ID = a;
+    window.location.href = "Home Page.html";
+  }
   else
     alert("You are not a member, please contact an admin for further queries.");
 }
