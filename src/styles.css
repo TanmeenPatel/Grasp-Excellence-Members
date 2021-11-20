@@ -28,7 +28,7 @@
         background-color: #2e2e2e;
         background: rgba(29, 29, 29, 0.88);
         backdrop-filter: blur(6px);
-        height: 7%;
+        height: 10[x];
         top: 0;
         left: 0;
       }
@@ -85,6 +85,7 @@
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  width: 140px;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -97,9 +98,10 @@
   display: none;
   position: absolute;
   background-color: rgba(61, 61, 61, 0.95);
-  min-width: 160px;
+  min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+
 }
 
 /* Links inside the dropdown */
