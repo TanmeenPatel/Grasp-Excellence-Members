@@ -19,7 +19,7 @@ async function check() {
 
     if (response.message == "Authenticated") {
       localStorage.ID = username;
-      window.location.href = "./Home-Page.html";
+      window.location.href = "./Home Page.html";
     } else {
       alert("Invalid Login ID and Password");
     }
